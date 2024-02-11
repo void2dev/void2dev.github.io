@@ -1,13 +1,21 @@
-body {
-  background-color: white;
+html, body {
+  font-family: 'Noto Serif Khojki', serif;
 }
 
-.prods{
+body {
   background-color: #ebf5fb;
 }
+
+/*.prods{
+  background-color: white ;
+}*/
 .nav-link {
   color:#ebf5fb;
   
+}
+
+.bluebcg {
+  background-color: #ebf5fb;
 }
 
 .logo {
@@ -79,7 +87,7 @@ body {
 
 
 nav {
-  background-color: #006CFF;
+  background-color: #002FA7;
 }
 
 .navbar-brand img {
@@ -93,7 +101,7 @@ nav {
 }
 
 .titols {
-  color:#006CFF;
+  color:#002FA7;
 }
 
 .container-fluid img{
@@ -102,4 +110,8 @@ nav {
 
 .container-fluid{
   color: black;
+}
+
+.bgw {
+background-color: white;
 }
