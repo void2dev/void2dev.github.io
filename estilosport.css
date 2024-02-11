@@ -115,3 +115,26 @@ nav {
 .bgw {
 background-color: white;
 }
+
+.fila {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px; /* Ajusta el valor según sea necesario */
+
+}
+
+.fila a{
+  text-decoration: none; 
+  color: black;
+}
+
+.servicio-fila {
+  display: flex;
+  justify-content: center;
+}
+
+.subp{
+  justify-content: left;
+
+}
