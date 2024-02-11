@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-color: #ebf5fb;
+  background-color: #002FA7;
 }
 
 /*.prods{
@@ -134,7 +134,21 @@ background-color: white;
   justify-content: center;
 }
 
-.subp{
+.subp {
   justify-content: left;
+  color:white;
 
+}
+
+.prods {
+  background-color: #ebf5fb;
+}
+
+.tanc {
+  background-color: #002FA7;
+  color:white;
+}
+
+.text-center{
+  color:white;
 }
