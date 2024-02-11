@@ -95,3 +95,11 @@ nav {
 .titols {
   color:#006CFF;
 }
+
+.container-fluid img{
+  border-radius: 10%;
+}
+
+.container-fluid{
+  color: black;
+}
