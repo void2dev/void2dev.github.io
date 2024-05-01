@@ -6,6 +6,19 @@ body {
   background-color: #002FA7;
 }
 
+
+.prop_img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover; /* Ajusta la imagen manteniendo la relación de aspecto y cubriendo el contenedor */
+}
+
+@media only screen and (min-width: 768px) {
+  .prop_img {
+    max-height: 800px; /* Elimina la restricción de altura para tamaños de pantalla más grandes */
+  }
+}
+
 /*.prods{
   background-color: white ;
 }*/
@@ -23,9 +36,9 @@ body {
 }
 
 .carousel-inner {
-  max-height: 500px;
-  max-width: 2000px;
-}
+  max-height: auto;
+  max-width: 100%;
+} 
 
 .container2 {
   justify-content: center;
